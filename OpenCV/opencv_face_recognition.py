@@ -18,9 +18,9 @@ cv2.imshow('Result', face_img)
 cv2.waitKey(0)
 
 # For WebCam
-vid_capture = cv2.VideoCapture(0) # 0 uses the default camera of the laptop. If multiple webcams are connected we can use camera ID
-vid_capture.set(3, 800) # 3 is the ID number for width
-vid_capture.set(4, 600) # 4 is the ID number for height
+vid_capture = cv2.VideoCapture(1) # 0 uses the default camera of the laptop. If multiple webcams are connected we can use camera ID
+vid_capture.set(3, 1280) # 3 is the ID number for width
+vid_capture.set(4, 720) # 4 is the ID number for height
 vid_capture.set(10, 150) # 10 is the Brightness setting
 
 while True:

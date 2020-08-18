@@ -1,7 +1,7 @@
 import cv2
 
 # For images
-img = cv2.imread('dataset/images/IMG_20200530_160628.jpg')
+img = cv2.imread('dataset/images/sample_img.jpg')
 cv2.imshow('Output Window Title', img)
 
 cv2.waitKey(0)

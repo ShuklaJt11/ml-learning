@@ -36,7 +36,7 @@ while True:
         x, y, width, height = face
         cv2.rectangle(img=face_img, pt1=(x, y), pt2=(x + width, y + height), color=(0, 0, 255), thickness=2)
 
-    cv2.imshow("Face Recoginition with webcam", face_img)
+    cv2.imshow("Face Recognition with webcam", face_img)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
